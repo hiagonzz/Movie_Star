@@ -1,5 +1,11 @@
+<?php
+    require_once("globals.php");
+    require_once("db.php");
+    
+?>
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">git remote add origin git@github.com:hiagonzz/Movie_star.git
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
