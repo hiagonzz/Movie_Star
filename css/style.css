@@ -1,6 +1,106 @@
-body{
-    background-color: #ddd6d6;
-}
 #logo{
     width: 100px;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+
+#moviestar-title{
+    color: #FFF;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 43px;
+}
+
+#main-navbar {
+    background-color:  #121212;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    border: solid 6px red;
+   
+}
+#seach-form{
+    background-color: #121212;
+    border-radius: 5px;
+    width:  50%;
+    height: 5%;
+    display: flex;
+    padding-top: 30px;
+}
+ 
+.btn{
+    color: #FFF;
+}
+
+.nav-link{
+    margin: 30px 30px 0 0  ;
+}
+
+
+.navbar-nav .nav-item .nav-link{
+
+    color: white;
+    transition:  .7s;
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+
+  color: yellow;
+}
+/* home */
+#main-container{
+    background-color: #000;
+    color: #FFF;
+    min-height: 65vh;
+    padding: 40px;
+    border: solid 6px red;
+}
+
+/* FOOTER */
+
+#footer{
+    display:grid;
+    background-color: #000 ;
+    color: #FFF;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    border: solid 6px red;
+}
+#social-container ul,
+#footer-links-container ul{
+ list-style-type: disc;
+}
+
+#social-container li,
+#footer-links-container li{
+    display: inline-block;
+}
+#facebook,
+#instagram,
+#youtube{
+    margin-left: 174px;
+    font-size: 20px;
+    padding: 10px;
+    color: #FFF;
+}
+#facebook:hover,
+#instagram:hover,
+#youtube:hover {
+   border-radius: 6px;
+   background-color: #333;
+}
+
+#add-list1,
+#add-list2,
+#add-list3{
+    margin-left: 120px;
+    color: #FFF;
+}
+#cop{
+margin-left: 50%;
 }
