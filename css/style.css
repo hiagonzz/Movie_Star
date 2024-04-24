@@ -19,7 +19,6 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
-    border: solid 6px red;
    
 }
 #seach-form{
@@ -56,7 +55,6 @@
     color: #FFF;
     min-height: 65vh;
     padding: 40px;
-    border: solid 6px red;
 }
 
 /* FOOTER */
@@ -69,7 +67,6 @@
     align-items: center;
     margin: 0;
     padding: 20px;
-    border: solid 6px red;
 }
 #social-container ul,
 #footer-links-container ul{
@@ -129,4 +126,42 @@ margin-left: 37%;
     color: #0f5132;
     background-color: #D1E7DD;
     border-color: #badbcc;
+}
+
+/*login/ Register*/
+
+.row{
+    justify-content: space-evenly;
+}
+
+#login-container h2,
+#register-container h2{
+    text-align: center;
+    border-bottom: 2px solid #F5C518;
+    width: 200px;
+    margin: o auto;
+    padding: 10px;
+
+}
+
+
+#login-container form,
+#register-container form {
+
+    max-width: 400px;
+    margin: 30px auto;
+}
+
+
+.card-btn{
+    color: #000;
+    background-color: #F5C518;
+    border: 2px solid #F5C518;
+    width: 100%;
+    margin: 30px auto;
+}
+.card-btn:hover{
+    background-color: transparent;
+    color: #F5C518;
+    border-color: #F5C518;
 }
